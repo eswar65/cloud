@@ -9,7 +9,7 @@ env:
   SERVICE_NAME: user-api
   REGION: ${{ secrets.GCP_REGION }}
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-  REPOSITORY: spring-repo
+  REPOSITORY: cloud
 
 jobs:
   deploy:
